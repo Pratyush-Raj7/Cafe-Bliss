@@ -1,11 +1,9 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Smooth scroll */
 html {
   scroll-behavior: smooth;
 }
@@ -13,12 +11,11 @@ html {
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.6;
-  background-color: #fff8f5; /* light cream */
+  background-color: #fff8f5;
   color: #333;
   transition: background 0.4s, color 0.4s;
 }
 
-/* Navbar */
 nav {
   position: fixed;
   top: 0;
@@ -28,13 +25,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 12px 40px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 nav .logo {
   font-weight: bold;
   font-size: 1.2rem;
-  color: #a0522d; /* coffee brown */
+  color: #a0522d;
 }
 nav .nav-right {
   display: flex;
@@ -54,7 +51,7 @@ nav ul li a {
   transition: color 0.3s;
 }
 nav ul li a:hover {
-  color: #d96c75; /* rose pink */
+  color: #d96c75;
 }
 #theme-toggle {
   margin-left: 30px;
@@ -71,14 +68,14 @@ nav ul li a:hover {
   background: #a0522d;
 }
 
-/* Hero Section */
 #home {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-              url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://images.unsplash.com/photo-1509042239860-f550ce710b93")
+      center/cover no-repeat;
   color: #fff;
   text-align: center;
 }
@@ -90,7 +87,6 @@ nav ul li a:hover {
   font-size: 1.2rem;
 }
 
-/* Section Styling */
 section {
   padding: 80px 20px;
   max-width: 1000px;
@@ -106,17 +102,16 @@ section p {
   text-align: center;
   font-size: 1.1rem;
   line-height: 1.8;
-  color: inherit; /* follows theme */
+  color: inherit;
 }
 
-/* Contact */
 #contact form {
   max-width: 500px;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-#contact input, 
+#contact input,
 #contact textarea {
   margin: 10px 0;
   padding: 12px;
@@ -138,7 +133,6 @@ section p {
   background: #a0522d;
 }
 
-/* Footer */
 footer {
   background: #a0522d;
   color: #fff;
@@ -148,7 +142,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Dark Theme */
 body.dark {
   background-color: #1b1b1b;
   color: #eee;
